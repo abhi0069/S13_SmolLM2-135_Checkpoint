@@ -1,0 +1,95 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# PyTorch
+*.pth
+*.pt
+*.ckpt
+checkpoints/
+
+# Virtual Environment
+venv/
+env/
+ENV/
+.env
+.venv
+env.bak/
+venv.bak/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+.project
+.pydevproject
+.settings/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb
+
+# Training logs and data
+logs/
+runs/
+tensorboard/
+wandb/
+*.log
+
+# Model specific
+tokenizer.json
+tokenizer_config.json
+vocab.json
+merges.txt
+
+# OS specific
+.DS_Store
+Thumbs.db
+*.db
+
+# Large files
+*.tar
+*.gz
+*.zip
+*.7z
+*.h5
+
+# Local development
+local_tests/
+scratch/
+notes/
+tmp/
+temp/
+
+# Hugging Face specific
+.cache/
+hub/
+
+# Data files
+*.csv
+*.tsv
+*.json
+!config.json
+*.jsonl
+*.txt
+!requirements.txt
+!README.md 
